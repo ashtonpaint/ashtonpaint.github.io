@@ -43,12 +43,12 @@ body {
       content: ""; }
 
 a {
-  color: #DC2F2F;
+  color: #000bff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #DC2F2F;
+    color: #000bff;
     outline: none;
     text-decoration: none; }
 
@@ -64,15 +64,15 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #DC2F2F; }
+  background: #000bff; }
 
 ::-moz-selection {
   color: #fff;
-  background: #DC2F2F; }
+  background: #000bff; }
 
 ::selection {
   color: #fff;
-  background: #DC2F2F; }
+  background: #000bff; }
 
 .trainer-img,
 .classes-img,
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6, figure {
       position: relative;
       color: #fff; }
       .colorlib-nav #colorlib-logo a i {
-        color: #DC2F2F; }
+        color: #000bff; }
   @media screen and (max-width: 768px) {
     .colorlib-nav .menu-1 {
       display: none; } }
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, figure {
         -o-transition: 0.5s;
         transition: 0.5s; }
         .colorlib-nav ul li a:hover {
-          color: #DC2F2F; }
+          color: #000bff; }
       .colorlib-nav ul li.has-dropdown {
         position: relative; }
         .colorlib-nav ul li.has-dropdown .dropdown {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6, figure {
               .colorlib-nav ul li.has-dropdown .dropdown li a:hover {
                 color: #fff; }
         .colorlib-nav ul li.has-dropdown:hover a, .colorlib-nav ul li.has-dropdown:focus a {
-          color: #DC2F2F; }
+          color: #000bff; }
       .colorlib-nav ul li.btn-cta a {
         padding: 30px 0px !important;
         color: #fff; }
@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6, figure {
       display: table-cell;
       vertical-align: middle;
       font-size: 40px;
-      color: #DC2F2F; }
+      color: #000bff; }
   .colorlib-video .overlay {
     position: absolute;
     top: 0;
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6, figure {
         #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
           cursor: pointer;
           background: transparent;
-          background: #DC2F2F; }
+          background: #000bff; }
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6, figure {
           font-weight: 300;
           color: rgba(255, 255, 255, 0.7); }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
-            color: #DC2F2F; }
+            color: #000bff; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
           text-transform: uppercase;
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .colorlib-blog,
 #colorlib-project,
 #colorlib-subscribe {
-  padding: 7em 0;
+  padding: 5em 0;
   clear: both; }
 
 #colorlib-intro {
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6, figure {
       bototom: 0;
       left: 2em;
       font-size: 14px;
-      background: #DC2F2F;
+      background: #000bff;
       padding: 1.2em 1em 1em 1em;
       color: #fff;
       text-transform: uppercase;
@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5, h6, figure {
         background: -o-linear-gradient(45deg, #000bff 0%, #9870FC 100%);
         background: linear-gradient(45deg, #000bff 0%, #9870FC 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DC2F2F', endColorstr='#9870FC',GradientType=1 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000bff', endColorstr='#9870FC',GradientType=1 );
         /* IE6-9 fallback on horizontal gradient */
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .trainers-entry .trainer-img {
   display: block;
-  height: 300px; }
+  height: 400px; }
 
 .trainers-entry .desc {
   background: #f2f3f7;
@@ -747,7 +747,7 @@ h1, h2, h3, h4, h5, h6, figure {
     .classes-desc ul li i {
       color: #fff;
       margin-right: 8px;
-      background: #DC2F2F;
+      background: #000bff;
       padding: 10px; }
 
 .review {
@@ -819,7 +819,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: whitesmoke; }
 
 .aside-stretch {
-  background: #DC2F2F; }
+  background: #000bff; }
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -827,7 +827,7 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: 0;
     content: '';
     width: 360%;
-    background: #DC2F2F; }
+    background: #000bff; }
   @media screen and (max-width: 768px) {
     .aside-stretch {
       background: transparent; }
@@ -871,7 +871,7 @@ h1, h2, h3, h4, h5, h6, figure {
       font-size: 30px;
       font-weight: 900;
       text-transform: uppercase;
-      color: #DC2F2F; }
+      color: white; }
   #colorlib-testimony .owl-theme .owl-controls {
     z-index: 1;
     position: absolute;
@@ -882,7 +882,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: rgba(255, 255, 255, 0.5); }
   #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
   #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
-    background: #DC2F2F; }
+    background: #000bff; }
   #colorlib-testimony .testimony-slide {
     display: block;
     position: relative;
@@ -935,7 +935,7 @@ h1, h2, h3, h4, h5, h6, figure {
       margin-bottom: 10px; }
       .event-entry .desc .startenddate span:first-child {
         font-weight: 700;
-        color: #DC2F2F; }
+        color: #000bff; }
       .event-entry .desc .startenddate span:last-child {
         color: #000; }
     .event-entry .desc .meta {
@@ -985,14 +985,14 @@ h1, h2, h3, h4, h5, h6, figure {
       .event-entry .location .icon i {
         background: #9870FC;
         /* Old browsers */
-        background: -moz-linear-gradient(45deg, #DC2F2F 0%, #9870FC 100%);
+        background: -moz-linear-gradient(45deg, #000bff 0%, #9870FC 100%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(45deg, #DC2F2F 0%, #9870FC 100%);
+        background: -webkit-linear-gradient(45deg, #000bff 0%, #9870FC 100%);
         /* Chrome10-25,Safari5.1-6 */
-        background: -o-linear-gradient(45deg, #DC2F2F 0%, #9870FC 100%);
-        background: linear-gradient(45deg, #DC2F2F 0%, #9870FC 100%);
+        background: -o-linear-gradient(45deg, #000bff 0%, #9870FC 100%);
+        background: linear-gradient(45deg, #000bff 0%, #9870FC 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DC2F2F', endColorstr='#9870FC',GradientType=1 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000bff', endColorstr='#9870FC',GradientType=1 );
         /* IE6-9 fallback on horizontal gradient */
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -1108,7 +1108,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 0;
     color: #000; }
     .contact-info-wrap-flex p span i {
-      color: #DC2F2F; }
+      color: #000bff; }
     .contact-info-wrap-flex p a {
       color: #000; }
 
@@ -1482,7 +1482,7 @@ input[type="text"] {
       #colorlib-offcanvas ul li.btn-cta {
         margin-top: 5px; }
         #colorlib-offcanvas ul li.btn-cta a {
-          border-bottom: 1px solid #DC2F2F;
+          border-bottom: 1px solid #000bff;
           padding-bottom: 5px; }
 
 .gototop {
@@ -1630,18 +1630,18 @@ input[type="text"] {
     outline: none !important; }
 
 .btn-primary {
-  background: #DC2F2F;
+  background: #000bff;
   color: #fff;
-  border: 2px solid #DC2F2F; }
+  border: 2px solid #000bff; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #e04545 !important;
     border-color: #e04545 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #DC2F2F;
-    border: 2px solid #DC2F2F; }
+    color: #000bff;
+    border: 2px solid #000bff; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #DC2F2F;
+      background: #000bff;
       color: #fff; }
 
 .btn-success {
